@@ -1,0 +1,80 @@
+/*divisão para ver os container com maior facilidade */
+div {
+  border: 1px solid red;
+}
+
+/* Nome no titulo do body (MURILO KUEHNE */
+#titulo {
+  font-family: Google Sans, Arial, sans-serif-medium, sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+/*container da introdução */
+.corpo {
+  display: flex;
+}
+
+/* Texto de introdução */
+#introd {
+  font-family: Google Sans, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: justify;
+  padding: 0 10px;
+}
+
+/*Imagem um apos o texto de introdução */
+#fotoUm {
+  width: 48%;
+}
+
+/* botao das carreiras*/
+#Esporte {
+  width: 100px;
+}
+
+/*ambito esportivo*/
+#ambitoEsportivo {
+  background-color: #0a0f24;
+}
+
+/*textos carreira esportiva */
+
+#tituloCEsportiva {
+  color: #fa8603;
+  font-family: Google Sans, Arial, sans-serif;
+  font-size: 80px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#textosEsporte {
+  max-width: 70%;
+  padding: 0px 10px;
+  float: left;
+}
+
+#trajetoria {
+  color: #fa8603;
+  font-family: Google Sans, Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#comecoTrajeto {
+  color: #fa8603;
+  font-family: Google Sans, Arial, sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+/*container da foto principal*/
+.containerFotoEsporte {
+  max-width: 30%;
+  max-height: 30%;
+  float: right;
+  padding-left: 40px;
+}
